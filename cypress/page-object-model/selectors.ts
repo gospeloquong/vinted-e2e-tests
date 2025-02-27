@@ -1,4 +1,11 @@
 export const COOKIE_REJECTION = '#onetrust-reject-all-handler';
-export const PRODUCT_SEARCH = '[data-testid="search-text--input"]'
+export const PRODUCT_SEARCH = '[data-testid="search-text--input"]';
 export const PRODUCT_SELECTION = '[data-testid="grid-item"]';
-export const BUY_BUTTON = '[data-testid="item-buy-button"]'
+export const PRODUCT_NAME = '[data-testid="item-page-summary-plugin"] > :nth-child(1) > .web_ui__Text__text';
+export const PRODUCT_PRICE = '[data-testid="item-price"]';
+export const BUY_BUTTON = '[data-testid="item-buy-button"]';
+export const LOGIN_BUTTON = '[data-testid="auth-select-type--register-switch"]'; 
+export const LOGIN_EMAIL_BUTTON = '[data-testid="auth-select-type--login-email"]';
+export const EMAIL_INPUT = '#username'; 
+export const PASSWORD_INPUT = '#password'; 
+export const CONTINUE_BUTTON = '.web_ui__Cell__body > .web_ui__Button__button > .web_ui__Button__content > .web_ui__Button__label'; 
