@@ -1,7 +1,7 @@
 import * as vintedPage from '../page-object-model/vintedPage';
 
-const emailAddress = 'slynwire@gmail.com'
-const password = 'vebxyq-3vibpo-geKtur'
+const emailAddress = 
+const password = 
 
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
